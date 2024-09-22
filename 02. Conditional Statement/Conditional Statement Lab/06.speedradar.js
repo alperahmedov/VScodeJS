@@ -19,7 +19,7 @@ function speedRadar(num) {
     } else if (num <= 1000) {
         console.log('ultra fast');
     } else {
-        console.log('extremly fast');
+        console.log('extremely fast');
         
     }
 
