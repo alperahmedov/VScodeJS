@@ -29,6 +29,19 @@ function histogram(input) {
     let percent3 = (count3 / n) * 100;
     let percent4 = (count4 / n) * 100;
     let percent5 = (count5 / n) * 100;
+
+    console.log(`${percent1.toFixed(2)}%`);
+    console.log(`${percent2.toFixed(2)}%`);
+    console.log(`${percent3.toFixed(2)}%`);
+    console.log(`${percent4.toFixed(2)}%`);
+    console.log(`${percent5.toFixed(2)}%`);
+    
    
     
 }
+
+histogram(([3,
+    1,
+    2,
+    999])
+    )
